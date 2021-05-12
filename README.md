@@ -4,11 +4,11 @@ Script to convert [kallisto](https://pachterlab.github.io/kallisto/) (1) transcr
 
 ## How to use:
 ```
-Rscript	kallisto_tx2gene.R
-		--kallisto_abundance directory/abundance.h5
-		--tx2gene_table      gencode_tsx2gene.tsv
-		--sample             sample
-		--output             gene_counts.tsv
+Rscript	kallisto_tx2gene.R \
+		--kallisto_abundance directory/abundance.h5 \
+		--tx2gene_table      gencode_tsx2gene.tsv \
+		--sample             sample \
+		--output             gene_counts.tsv \
 ```
 
 See more information in `Rscript kallisto_tx2gene.R -h`
