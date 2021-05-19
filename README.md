@@ -1,5 +1,7 @@
 # txImport
 
+![](https://img.shields.io/github/license/barreiro-r/tximport)
+
 Script to convert [kallisto](https://pachterlab.github.io/kallisto/) (1) transcript expression to gene expression (counts and TPM) using [txImport](https://bioconductor.org/packages/release/bioc/html/tximport.html) (2);
 
 ## How to use:
